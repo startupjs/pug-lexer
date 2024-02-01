@@ -1,13 +1,16 @@
 {
-  "name": "pug-lexer",
+  "name": "@startupjs/pug-lexer",
   "version": "2.3.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "The pug lexer (takes a string and converts it to an array of tokens)",
   "keywords": [
     "pug"
   ],
   "dependencies": {
     "character-parser": "^2.1.1",
-    "is-expression": "^3.0.0",
+    "@startupjs/is-expression": "^4.0.0-0",
     "pug-error": "^1.3.0"
   },
   "devDependencies": {
